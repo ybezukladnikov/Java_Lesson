@@ -16,8 +16,60 @@ a 10
 
 package Seminar.Seminar_01.HomeWork.Task_01;
 
+
+import java.io.FileWriter;
+import java.io.IOException;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+
 public class Task_01 {
-    public static void main(String[] args) {
+    /**
+     * @param args
+     * @throws Exception
+     */
+    public static void main(String[] args) 
+     throws Exception 
+    {
+
+      
+        File file = new File("/Users/yaroslav/Desktop/GeekBrains/Java_Lesson/Seminar/Seminar_01/HomeWork/Task_01/input.txt");
+    //    FileWriter f_obj = new FileWriter(file, false);
+    //    f_obj.write("3 5");
+    //    f_obj.close();
+
+       BufferedReader fr = new BufferedReader  (new FileReader(file));
+       String res_r;
+       int numArr[] = new int[2];
+       int j =0;
+       while((res_r = fr.readLine())!= null){
+        String strArr[] = res_r.split(" ");
         
+        for (int i = 0; i < strArr.length; i++) {
+            if(mainFunc.isNumeric(strArr[i])) { 
+
+            numArr[j] = Integer.parseInt(strArr[i]);
+            j++;
+            
+        }
+
+       
+       }
+
+        }
+        System.out.println(numArr[0]*numArr[1]);
+        
+       
+       fr.close();
     }
 }
+
+
+       
+        
+
+        
+    
+
