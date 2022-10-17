@@ -19,8 +19,6 @@ package Seminar.Seminar_01.HomeWork.Task_01;
 
 import java.io.FileWriter;
 import java.io.IOException;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -35,12 +33,11 @@ public class Task_01 {
     {
 
       
-        File file = new File("/Users/yaroslav/Desktop/GeekBrains/Java_Lesson/Seminar/Seminar_01/HomeWork/Task_01/input.txt");
-    //    FileWriter f_obj = new FileWriter(file, false);
-    //    f_obj.write("3 5");
-    //    f_obj.close();
+        File file_r = new File("/Users/yaroslav/Desktop/GeekBrains/Java_Lesson/Seminar/Seminar_01/HomeWork/Task_01/input.txt");
+        File file_w = new File("/Users/yaroslav/Desktop/GeekBrains/Java_Lesson/Seminar/Seminar_01/HomeWork/Task_01/output.txt");
 
-       BufferedReader fr = new BufferedReader  (new FileReader(file));
+
+       BufferedReader fr = new BufferedReader  (new FileReader(file_r));
        String res_r;
        int numArr[] = new int[2];
        int j =0;
@@ -54,15 +51,14 @@ public class Task_01 {
             j++;
             
         }
-
-       
        }
-
-        }
-        System.out.println(numArr[0]*numArr[1]);
-        
-       
+    }  
        fr.close();
+
+        FileWriter f_obj = new FileWriter(file_w, false);
+        double result = Math.pow(numArr[1], numArr[0]);
+        f_obj.write(Double.toString(result));
+        f_obj.close();
     }
 }
 
