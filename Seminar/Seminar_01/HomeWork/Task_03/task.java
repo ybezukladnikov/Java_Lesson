@@ -11,7 +11,8 @@ public class task {
         System.out.printf("Треугольное число для %s =>  %s\n", a, result);
         
     }
-
+/// Основной метод для вычисления треугольного числа. 
+/// Основан на рекурсии.
     static int triangle_n(int arg) {
         if (arg==1) {
             return 1;
