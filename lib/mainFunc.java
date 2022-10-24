@@ -1,13 +1,23 @@
-package Seminar.Seminar_01.HomeWork.Task_01;
+package lib;
 
 import java.util.Scanner;
 
 public class mainFunc {
 
-    static int inputCons(){
-        Scanner scanner = new Scanner(System.in);
-        int a = scanner.nextInt();
-        return a;
+    public static int inputCons(){
+        
+        while (true) {
+            Scanner scanner = new Scanner(System.in);
+            try {
+                int a = scanner.nextInt();
+                return a;
+            } catch (Exception e) {
+                System.out.println("Вы ввели не число. Попробуйте снова");
+            }
+        }
+        
+        
+        
 
     }
 

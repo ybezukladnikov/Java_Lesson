@@ -33,7 +33,7 @@ public class task_02 {
             a = a * c;
             
         } else {
-            a=a
+            a=a;
             
         }
 

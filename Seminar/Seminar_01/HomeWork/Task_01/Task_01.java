@@ -17,11 +17,11 @@ a 10
 package Seminar.Seminar_01.HomeWork.Task_01;
 
 
-import java.io.FileWriter;
-import java.io.IOException;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
+import java.io.FileWriter;
+import lib.mainFunc;
 
 public class Task_01 {
     /**
@@ -33,8 +33,9 @@ public class Task_01 {
     {
 
       
-        File file_r = new File("/Users/yaroslav/Desktop/GeekBrains/Java_Lesson/Seminar/Seminar_01/HomeWork/Task_01/input.txt");
-        File file_w = new File("/Users/yaroslav/Desktop/GeekBrains/Java_Lesson/Seminar/Seminar_01/HomeWork/Task_01/output.txt");
+        File file_r = new File("/Users/yaroslav/IdeaProjects/Java_Lesson/Seminar/Seminar_01/HomeWork/Task_01/input.txt");
+        File file_w = new File("/Users/yaroslav/IdeaProjects/Java_Lesson/Seminar/Seminar_01/HomeWork/Task_01/output.txt");
+
 
 
        BufferedReader fr = new BufferedReader  (new FileReader(file_r));
