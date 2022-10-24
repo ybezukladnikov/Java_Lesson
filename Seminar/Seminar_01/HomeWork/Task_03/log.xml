@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-10-20T10:09:25.450847Z</date>
+  <millis>1666260565450</millis>
+  <nanos>847000</nanos>
+  <sequence>0</sequence>
+  <logger>My_logger.logging</logger>
+  <level>WARNING</level>
+  <class>My_logger.logging</class>
+  <method>logging_1</method>
+  <thread>1</thread>
+  <message>Тест лог 1</message>
+</record>
+<record>
+  <date>2022-10-20T10:09:25.529640Z</date>
+  <millis>1666260565529</millis>
+  <nanos>640000</nanos>
+  <sequence>1</sequence>
+  <logger>My_logger.logging</logger>
+  <level>INFO</level>
+  <class>My_logger.logging</class>
+  <method>logging_1</method>
+  <thread>1</thread>
+  <message>Тест лог 2</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-10-20T10:16:25.731867Z</date>
+  <millis>1666260985731</millis>
+  <nanos>867000</nanos>
+  <sequence>0</sequence>
+  <logger>My_logger.logging</logger>
+  <level>INFO</level>
+  <class>My_logger.logging</class>
+  <method>logging_1</method>
+  <thread>1</thread>
+  <message>Я не банан</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-10-20T10:25:08.625789Z</date>
+  <millis>1666261508625</millis>
+  <nanos>789000</nanos>
+  <sequence>0</sequence>
+  <logger>My_logger.logging</logger>
+  <level>INFO</level>
+  <class>My_logger.logging</class>
+  <method>logging_1</method>
+  <thread>1</thread>
+  <message>Пользователь ввел =&gt; 7</message>
+</record>
+</log>
