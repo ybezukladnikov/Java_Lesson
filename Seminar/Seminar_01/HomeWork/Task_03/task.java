@@ -13,7 +13,8 @@ public class task {
 
         int a = mainFunc.inputCons();
         String text = "Пользователь ввел => " + a;
-        logging.logging_1("/Users/yaroslav/IdeaProjects/Java_Lesson/Seminar/Seminar_01/HomeWork/Task_03/log.xml",text);
+
+        logging.logging_1("/Users/aroslavbezukladnikov/IdeaProjects/Java_Lesson/Seminar/Seminar_01/HomeWork/Task_03/log.xml",text);
         int result = triangle_n(a);
         System.out.printf("Треугольное число для %s =>  %s\n", a, result);
         

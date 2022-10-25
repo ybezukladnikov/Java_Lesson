@@ -1,5 +1,6 @@
 package lib;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class mainFunc {
@@ -15,9 +16,11 @@ public class mainFunc {
                 System.out.println("Вы ввели не число. Попробуйте снова");
             }
         }
-        
-        
-        
+    }
+
+    public static String ShowArray(int [] arr){
+        String arrayToString = Arrays.toString(arr);
+        return arrayToString;
 
     }
 
