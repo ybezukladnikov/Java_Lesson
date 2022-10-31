@@ -53,7 +53,7 @@ public class storageHW {
     {
         for (int i = 0; i < storage.length; i++) {
             for (int j = 0; j < storage[i].length; j++) {
-                System.out.println(storage[i][j]);
+                System.out.print(storage[i][j]+" ");
 
 
             }

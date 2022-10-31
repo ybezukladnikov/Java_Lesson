@@ -16,9 +16,7 @@ public class HomeWork {
     static int SecondInd = 0;
 
 
-    static void FindInd(int [][] array){
 
-    }
     static void PrintMap(int [][]arg){
         for (int i = 0; i < arg.length; i++) {
             for (int j = 0; j < arg[i].length; j++) {
