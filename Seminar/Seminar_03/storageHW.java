@@ -6,7 +6,7 @@ import lib.mainFunc;
 public class storageHW {
 
     static int position = 0;
-    static int [][] storage = new int[4][2];
+    static int [][] storage = new int[10][2];
 
     static void clear(){
         position = 0;
