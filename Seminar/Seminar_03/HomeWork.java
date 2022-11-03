@@ -196,12 +196,14 @@ public class HomeWork {
 //            col.add(JSecondExit);
             IFinishWay = ISecondExit;
             JFinishWay = JSecondExit;
+            System.out.println("Выход 22 ближе всего");
 
         } else {
 //            row.add(IFirstExit);
 //            col.add(JFirstExit);
             IFinishWay = IFirstExit;
             JFinishWay = JFirstExit;
+            System.out.println("Выход 11 ближе всего");
         }
 //
         while (map[IFinishWay][JFinishWay]!=1) {
