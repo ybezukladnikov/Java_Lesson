@@ -25,12 +25,12 @@ public class HomeWork {
     static int SecondInd = 0;
 
     //Первый выход:
-    static int IFirstExit = 6;
-    static int JFirstExit = 7;
+    static int IFirstExit = 5;
+    static int JFirstExit = 0;
 
     //Второй выход:
-    static int ISecondExit = 4;
-    static int JSecondExit = 2;
+    static int ISecondExit = 0;
+    static int JSecondExit = 7;
     static int IFinishWay;
     static int JFinishWay;
 
