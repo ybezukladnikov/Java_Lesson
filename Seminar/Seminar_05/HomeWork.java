@@ -45,10 +45,6 @@ public class HomeWork {
         n6.son = tempArrayN6;
 
 
-
-
-        // 1 2 4 7 9 3 5 6 11 20
-//        System.out.println(n4.left.value);
         preOrder(root, "");
     }
 
@@ -77,6 +73,8 @@ class Node {
     public Node(int value) {
         this.value = value;
     }
+
+
 
 
 }
